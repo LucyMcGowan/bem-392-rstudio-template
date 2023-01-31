@@ -1,0 +1,39 @@
+col_names,description
+ID,RespondentID-NA
+YN_SEEN_STARWARS,Have you seen any of the 6 films in the Star Wars franchise?-Response
+YN_FAN_STARWARS,Do you consider yourself to be a fan of the Star Wars film franchise?-Response
+YN_SEEN_EPISODE_1,Which of the following Star Wars films have you seen? Please select all that apply.-Star Wars: Episode I  The Phantom Menace
+YN_SEEN_EPISODE_2,Which of the following Star Wars films have you seen? Please select all that apply.-Star Wars: Episode II  Attack of the Clones
+YN_SEEN_EPISODE_3,Which of the following Star Wars films have you seen? Please select all that apply.-Star Wars: Episode III  Revenge of the Sith
+YN_SEEN_EPISODE_4,Which of the following Star Wars films have you seen? Please select all that apply.-Star Wars: Episode IV  A New Hope
+YN_SEEN_EPISODE_5,Which of the following Star Wars films have you seen? Please select all that apply.-Star Wars: Episode V The Empire Strikes Back
+YN_SEEN_EPISODE_6,Which of the following Star Wars films have you seen? Please select all that apply.-Star Wars: Episode VI Return of the Jedi
+VAL_RANK_EPISODE_1,Please rank the Star Wars films in order of preference with 1 being your favorite film in the franchise and 6 being your least favorite film.-Star Wars: Episode I  The Phantom Menace
+VAL_RANK_EPISODE_2,Please rank the Star Wars films in order of preference with 1 being your favorite film in the franchise and 6 being your least favorite film.-Star Wars: Episode II  Attack of the Clones
+VAL_RANK_EPISODE_3,Please rank the Star Wars films in order of preference with 1 being your favorite film in the franchise and 6 being your least favorite film.-Star Wars: Episode III  Revenge of the Sith
+VAL_RANK_EPISODE_4,Please rank the Star Wars films in order of preference with 1 being your favorite film in the franchise and 6 being your least favorite film.-Star Wars: Episode IV  A New Hope
+VAL_RANK_EPISODE_5,Please rank the Star Wars films in order of preference with 1 being your favorite film in the franchise and 6 being your least favorite film.-Star Wars: Episode V The Empire Strikes Back
+VAL_RANK_EPISODE_6,Please rank the Star Wars films in order of preference with 1 being your favorite film in the franchise and 6 being your least favorite film.-Star Wars: Episode VI Return of the Jedi
+CAT_FAVOR_HAN_SOLO,"Please state whether you view the following characters favorably, unfavorably, or are unfamiliar with him/her.-Han Solo"
+CAT_FAVOR_LUKE,"Please state whether you view the following characters favorably, unfavorably, or are unfamiliar with him/her.-Luke Skywalker"
+CAT_FAVOR_LEIA,"Please state whether you view the following characters favorably, unfavorably, or are unfamiliar with him/her.-Princess Leia Organa"
+CAT_FAVOR_ANAKIN,"Please state whether you view the following characters favorably, unfavorably, or are unfamiliar with him/her.-Anakin Skywalker"
+CAT_FAVOR_OBI_WAN,"Please state whether you view the following characters favorably, unfavorably, or are unfamiliar with him/her.-Obi Wan Kenobi"
+CAT_FAVOR_EMPEROR_PALPATINE,"Please state whether you view the following characters favorably, unfavorably, or are unfamiliar with him/her.-Emperor Palpatine"
+CAT_FAVOR_DARTH_VADER,"Please state whether you view the following characters favorably, unfavorably, or are unfamiliar with him/her.-Darth Vader"
+CAT_FAVOR_LANDO,"Please state whether you view the following characters favorably, unfavorably, or are unfamiliar with him/her.-Lando Calrissian"
+CAT_FAVOR_BOBA_FETT,"Please state whether you view the following characters favorably, unfavorably, or are unfamiliar with him/her.-Boba Fett"
+CAT_FAVOR_C3PO,"Please state whether you view the following characters favorably, unfavorably, or are unfamiliar with him/her.-C-3P0"
+CAT_FAVOR_R2D2,"Please state whether you view the following characters favorably, unfavorably, or are unfamiliar with him/her.-R2 D2"
+CAT_FAVOR_JARJAR,"Please state whether you view the following characters favorably, unfavorably, or are unfamiliar with him/her.-Jar Jar Binks"
+CAT_FAVOR_PADME,"Please state whether you view the following characters favorably, unfavorably, or are unfamiliar with him/her.-Padme Amidala"
+CAT_FAVOR_YODA,"Please state whether you view the following characters favorably, unfavorably, or are unfamiliar with him/her.-Yoda"
+CAT_WHO_SHOT_FIRST,Which character shot first?-Response
+YN_KNOW_EXPANDED_UNIVERSE,Are you familiar with the Expanded Universe?-Response
+YN_FAN_EXPANDED_UNIVERSE,Do you consider yourself to be a fan of the Expanded Universe?Œæ-Response
+YN_FAN_STAR_TREK,Do you consider yourself to be a fan of the Star Trek franchise?-Response
+IND_DEMOGRAPHIC_FEMALE,Gender-Response
+CAT_DEMOGRAPHIC_AGE,Age-Response
+CAT_DEMOGRAPHIC_INCOME,Household Income-Response
+CAT_DEMOGRAPHIC_EDUCATION,Education-Response
+CAT_DEMOGRAPHIC_LOCATION,Location (Census Region)-Response

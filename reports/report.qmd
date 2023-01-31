@@ -1,0 +1,60 @@
+---
+title: "Who Shot First -- A Star Wars Exploration"
+author: "Lucy D'Agostino McGowan"
+format: html
+---
+
+This data was obtained from [FiveThirtyEight's GitHub](https://github.com/fivethirtyeight/data/tree/master/star-wars-survey). It contains data behind the FiveThiryEight story [America's Favorite 'Star Wars' Movies (And Least Favorite Characters)](https://fivethirtyeight.com/features/americas-favorite-star-wars-movies-and-least-favorite-characters/). It consists of `r nrow(df)` respondents to a Star Wars survey.
+
+```{r}
+#| message: false
+#| warning: false
+library(tidyverse)
+library(gtsummary)
+starwars_survey <- read_csv("../data/cleaned-data/data.csv")
+```
+
+## Data Checks
+
+```{r}
+#| eval: false
+library(pointblank)
+
+expected_favor_set <- c("Unfamiliar (N/A)",
+                        "Very favorably",
+                        "Somewhat favorably",
+                        "Neither favorably nor unfavorably (neutral)", 
+                        "Somewhat unfavorably",
+                        "Very unfavorably",
+                        NA_character_)
+
+starwars_survey %>%
+  create_agent(actions = action_levels(warn_at = 0.1)) %>%
+  col_vals_not_null("ID") %>%
+  rows_distinct("ID") %>%
+  col_is_character(starts_with("CAT")) %>%
+  col_vals_between(contains("RANK"), 0, 6, na_pass = TRUE) %>%
+  ## Add check for your 2 category Age variable
+  ## Add check for all Yes/No variables
+  ## Add check for all variables that contain "FAVOR" using the set defined above (expected_favor_set)
+  interrogate()
+```
+
+## Table Summary
+
+```{r}
+#| message: false
+#| warning: false
+
+```
+
+## Linear Regression
+
+```{r}
+
+```
+
+
+
+
+
