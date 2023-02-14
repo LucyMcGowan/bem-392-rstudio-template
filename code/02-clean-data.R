@@ -5,7 +5,6 @@ d <- read_csv("data/raw-data/data.csv")
 
 d <- d %>%
   mutate(across(starts_with("YN"), tolower)) %>%
-# creating a new variable YN_SEEN_EPISODE_1
   mutate(YN_SEEN_EPISODE_1 = case_when(
     is.na(YN_SEEN_EPISODE_1) & is.na(YN_SEEN_EPISODE_2) &
       is.na(YN_SEEN_EPISODE_3) & is.na(YN_SEEN_EPISODE_4) &
